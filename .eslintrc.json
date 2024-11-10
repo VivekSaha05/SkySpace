@@ -1,3 +1,6 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript", "standard", "plugin:tailwindcss/recommended", "prettier" ]
+  "extends": ["next/core-web-vitals", "next/typescript", "standard", "plugin:tailwindcss/recommended", "prettier" ],
+  "rules": {
+    "no-undef": "off"
+  }
 }
