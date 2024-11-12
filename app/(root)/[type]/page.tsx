@@ -2,6 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { Models } from "node-appwrite";
 
+import ActionDropdown from "@/components/ActionDropdown";
+import { FormattedDateTime } from "@/components/FormattedDateTime";
 import { Thumbnail } from "@/components/Thumbnail";
 import { Separator } from "@/components/ui/separator";
 import { getFiles, getTotalSpaceUsed } from "@/lib/actions/file.actions";
@@ -20,7 +22,6 @@ const Dashboard = async () => {
   return (
     <div className="dashboard-container">
       <section>
-        <Chart used={totalSpace.used} />
 
         {/* Uploaded file type summaries */}
         <ul className="dashboard-summary-list">
