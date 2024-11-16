@@ -1,11 +1,12 @@
 <h1 align='center'>
-  <img src = "https://github.com/user-attachments/assets/c6b3ccc1-465e-4fbf-9f91-0ae6886cda12" width="300">
+  <img src = "https://github.com/user-attachments/assets/4836f528-4440-48e0-bf52-541cd21ccdd0" width="300">
 </h1>
 <p align='center'>
 A professional take on cloud storage with room for customization.
 </p>
 
 ## 📋 <a name="table">Table of Contents</a>
+
 
 1. 🤖 [Introduction](#introduction)
 2. ⚙️ [Tech Stack](#tech-stack)
